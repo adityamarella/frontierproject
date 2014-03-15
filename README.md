@@ -1,17 +1,14 @@
 
-@Author: Aditya Marella
-@Date: 03-14-2014
-
 This code was developed and tested on Ubuntu 13.10
 
-** Software Package Requirements **
+**Software Package Requirements**
 
     * NLTK (python)
     * Jype (python)
     * Standford Tagger, Parser (Java)
 
 
-** Files **
+**Files**
 
     * config.py: this file contains various configuration settings used by different scripts for example the output directories and stanford parser home directory path are configure in this file
     * fetcher.py: wrapper to handle the privacy URL GET requests 
@@ -25,7 +22,7 @@ This code was developed and tested on Ubuntu 13.10
     * evaluate.py: has code to calculate precision and recall against the manually annotated datasets(Travis, Fei datasets)
 
 
-** Running the code **
+**Running the code**
 
 All the scripts have two modes of operation viz. single privacy url and multiple privacy urls
 
