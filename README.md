@@ -12,6 +12,7 @@ This code was developed and tested on Ubuntu 13.10
 
 
 ** Files **
+
     * config.py: this file contains various configuration settings used by different scripts for example the output directories and stanford parser home directory path are configure in this file
     * fetcher.py: wrapper to handle the privacy URL GET requests 
     * sectioner.py: contains sectioning part of the code, mainly the headings are used to sections privacy policies
