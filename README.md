@@ -1,7 +1,4 @@
 
-@Author: Aditya Marella
-@Date: 03-14-2014
-
 This code was developed and tested on Ubuntu 13.10
 
 ** Software Package Requirements **
