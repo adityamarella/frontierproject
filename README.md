@@ -5,7 +5,7 @@ This code was developed and tested on Ubuntu 13.10
 
     * NLTK (python)
     * Jype (python)
-    * Standford Tagger, Parser (Java)
+    * Stanford Tagger, Parser (Java)
 
 
 **Files**
