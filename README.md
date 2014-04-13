@@ -31,7 +31,7 @@ NOTE: many privacy policies are not supported, an error will be logged for polic
 
 <b>Examples</b>
 
-- python test_sectioner.py "http://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=468496"
+- ``` python test_sectioner.py "http://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=468496" ```
 
 - python classify.py "http://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=468496" > amazon.html
 
