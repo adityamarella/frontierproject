@@ -31,17 +31,17 @@ NOTE: many privacy policies are not supported, an error will be logged for polic
 
 <b>Examples</b>
 
-- ``` python test_sectioner.py "http://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=468496" ```
+``` python test_sectioner.py "http://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=468496" ```
 
-- python classify.py "http://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=468496" > amazon.html
+``` python classify.py "http://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=468496" > amazon.html ```
 
 
-- python information_type_extractor.py "http://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=468496" > info_type.out
+``` python information_type_extractor.py "http://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=468496" > info_type.out```
 
-- output for this script is html files with marked sections
- python noun_phrase_marker.py "http://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=468496"
+INFO: output for this script is html files with marked sections
+``` python noun_phrase_marker.py "http://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=468496" ```
 
-- this script was used for computing noun phrase frequencies in the privacy policies
- python noun_phrase_extractor.py np.out "http://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=468496"
+INFO: this script was used for computing noun phrase frequencies in the privacy policies
+``` python noun_phrase_extractor.py np.out "http://www.amazon.com/gp/help/customer/display.html/ref=footer_privacy?ie=UTF8&nodeId=468496" ```
 
 
