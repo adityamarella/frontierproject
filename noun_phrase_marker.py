@@ -2,8 +2,8 @@
 
 """
 This file contains code to mark the noun phrases given a privacy url.
-Generates a several html files with nounphrases marked as spans. These spans
-are not colored but are change to red color when you click on them.
+Outputs several html files with nounphrases marked as HTML spans. These spans
+are initially not colored but change to red color when you click on them.
 
 Usage:
  

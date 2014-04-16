@@ -128,7 +128,6 @@ class Parser(object):
 
 
     def getTreesForLabel(self, ptree, lb="NP"):
-        import pdb; pdb.set_trace()
         if ptree.label().value() == lb:
             return [ptree]
 
